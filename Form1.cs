@@ -283,7 +283,7 @@ namespace Завдання
                 cbProgrammer.Text = dataGridView2.SelectedRows[0].Cells[2].Value.ToString();
                 cBoxGender.Text = dataGridView2.SelectedRows[0].Cells[3].Value.ToString();
             }
-            catch { dataGridView2.Rows[0].Cells[4].Value = none; }
+            catch { }
         }
     }
 }
